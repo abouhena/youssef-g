@@ -1,0 +1,52 @@
+name: tourism_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  http:
+  flutter_bloc: ^8.1.3
+  url_launcher:
+  image_picker: ^1.0.7
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.10
+  flutter_phone_direct_caller: ^2.1.1
+  flutter_local_notifications: ^13.0.0
+  flutter_launcher_icons: ^0.13.1
+  fluttertoast: ^8.2.2
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/image/logo.jpg"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/image/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/font/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/font/PoppinsSemiBold.ttf
+          weight: 600
